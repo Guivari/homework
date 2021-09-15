@@ -15,12 +15,12 @@ int main() {
 
     } else if (discriminant == 0) {
         sol1 = (-1 * b) / 2 * a;
-        std::cout << "There is 1 solution. \nThe solution is: " << sol1;
+        std::cout << "There is 1 solution.\n\nThe solution is: " << sol1;
 
     } else if (discriminant > 0) {
         sol1 = ((-1.0*b) + sqrt(discriminant)) / (2.0*a);
         sol2 = ((-1.0*b) - sqrt(discriminant)) / (2.0*a);
-        std::cout << "There are 2 solutions. \nThe solutions are: " << sol1 << " and " << sol2;
+        std::cout << "There are 2 solutions.\n\nThe solutions are: " << sol1 << " and " << sol2;
     }
 
     std::cout << std::endl;
